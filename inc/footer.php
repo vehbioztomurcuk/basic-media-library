@@ -1,6 +1,4 @@
-</div>  <!-- End content -->
- 
-	</div>
+</div><!-- end content -->
 
 	<div class="footer">
 
@@ -8,10 +6,10 @@
 
 			<ul>		
 				<li><a href="http://twitter.com/vehbioztomurcuk">Twitter</a></li>
-				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
+				<li><a href="https://teamtreehouse.com/vehbiztomurcuk">Treehouse</a></li>
 			</ul>
 
-			<p>&copy; <?=date("Y");?> Personal Media Library</p>
+			<p>&copy;<?php echo date("Y"); ?> Personal Media Library</p>
 
 		</div>
 	

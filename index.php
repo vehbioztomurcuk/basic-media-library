@@ -1,7 +1,6 @@
-
 <?php 
-include("inc/data.php");
 include("inc/functions.php");
+
 $pageTitle = "Personal Media Library";
 $section = null;
 
@@ -12,16 +11,17 @@ include("inc/header.php"); ?>
 
 				<h2>May we suggest something?</h2>
 
-								<ul class="items">
-								<?php 
-						$random  = array_rand($catalog, 4);
-						foreach ($random as $id) {
-                         echo get_item_html($id, $catalog[$id]);
-						}
-
-								
-								?>				</ul>
+        <ul class="items">
+            <?php
+            $random = random_catalog_array();
+            foreach ($random as $item ) {
+                echo get_item_html($item);
+            }
+            ?>							
+				</ul>
 
 			</div>
 
-		<?php include("inc/footer.php"); ?>
+		</div>
+
+<?php include("inc/footer.php"); ?>

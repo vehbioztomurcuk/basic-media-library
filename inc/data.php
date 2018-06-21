@@ -1,5 +1,10 @@
 <?php
+include "connection.php";
 
+
+/*
+$catalog = [];
+//Books
 $catalog[101] = [
 	"title" => "A Design Patterns: Elements of Reusable Object-Oriented Software",
 	"img" => "img/media/design_patterns.jpg",
@@ -140,7 +145,7 @@ $catalog[204] = [
         "Chris Sarandon",
         "Christopher Guest",
         "Wallace Shawn",
-        "AndrÃ© the Giant",
+        "André the Giant",
         "Fred Savage",
         "Peter Falk",
         "Billy Crystal"
@@ -183,3 +188,6 @@ $catalog[304] = [
     "category" => "Music",
     "artist" => "Nat King Cole"
 ];
+
+*/
+
